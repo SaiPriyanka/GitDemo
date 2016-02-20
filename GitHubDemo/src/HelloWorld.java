@@ -9,10 +9,11 @@
 public class HelloWorld {
 	
 	public void main(String[] args){
-		print();
+		print("Hello World");
+		
 	}
 	
-	public void print(){
+	public void print(String text){
 		System.out.println("Testing");
 	}
 
